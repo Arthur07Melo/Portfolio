@@ -13,7 +13,7 @@ export default function ProjectCard(props:propsType){
     return(
         <div className="flex flex-col justify-center items-center max-w-sm shadow-lg">
             <div className="w-fit rounded-md flex items-center justify-center">
-                <a href={props.href}><Image className="rounded-t-md hover:brightness-50" src={props.image} width={384} alt="project image" /></a>
+                <a href={props.href} target="_blank"><Image className="rounded-t-md hover:brightness-50" src={props.image} width={384} alt="project image" /></a>
             </div>
 
             <div className="bg-gray-200 w-full h-full flex flex-col rounded-md p-3">
