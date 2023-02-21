@@ -1,9 +1,12 @@
 import ProfileCard from "./profileCard";
+import AllProjects from "./allProjects";
+
 
 export default function MainComponent(){
     return (
-        <main className="w-screen h-screen flex items-center justify-center bg-gray-300">
+        <main className="flex flex-col items-center justify-center bg-gray-300">
             <ProfileCard />
+            <AllProjects />
         </main>
     )
 }
