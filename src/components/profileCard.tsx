@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function ProfileCard(){
     return(
-        <div className="max-w-sm flex items-center justify-center flex-col rounded-md shadow-lg bg-gray-200 pb-7 mt-32">
+        <div className="max-w-sm flex items-center justify-center flex-col rounded-md shadow-lg bg-gray-200 pb-7 mt-32 mb-12">
             <div className="w-full px-10 py-3 bg-gray-400 flex justify-center rounded-t-md">
                 <Image className="rounded-full" src={ProfilePhoto} alt="Profile Photo" />
             </div>
