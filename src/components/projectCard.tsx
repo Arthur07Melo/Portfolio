@@ -9,7 +9,7 @@ type propsType = {
 
 export default function ProjectCard(props:propsType){
     return(
-        <div className="flex flex-col justify-center items-center m-16 max-w-sm shadow-lg">
+        <div className="flex flex-col justify-center items-center max-w-sm shadow-lg">
             <div className="w-fit rounded-md flex items-center justify-center">
                 <a href={props.href}><Image className="rounded-t-md" src={ComingSoon} width={384} alt="project image" /></a>
             </div>
