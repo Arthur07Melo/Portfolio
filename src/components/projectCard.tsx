@@ -19,7 +19,7 @@ export default function ProjectCard(props:propsType){
             <div className="bg-gray-200 w-full h-full flex flex-col rounded-b-md p-3">
                 <h1 className="text-3xl w-fit">{props.projectName}</h1>
 
-                <div className="flex gap-2">
+                <div className="flex gap-2 flex-wrap">
                     {props.techs.map(tech => (
                     <div className="bg-gray-600 text-gray-200 font-bold rounded-lg shadow-md px-3 py-1 transition-all duration-300 cursor-default hover:bg-gray-700">{tech}</div>
                     ))}
