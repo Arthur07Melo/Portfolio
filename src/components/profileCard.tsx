@@ -12,7 +12,7 @@ export default function ProfileCard(){
 
             <ul className="w-full px-3 py-3">
                 <li className="text-2xl">Profile</li>
-                <li>Entusiasta apaixonado por tecnologia e sempre buscando melhorar. Atualmente estudando desenvolvimento web tanto back-end quanto front-end. <br></br><br></br> confira abaixo alguns dos meus projetos:</li>
+                <li>Entusiasta apaixonado por tecnologia e sempre buscando melhorar. Atualmente estudando desenvolvimento web tanto back-end quanto front-end. <br></br><br></br> confira abaixo alguns dos meus projetos:<br></br> (clique para se redirecionar a página)</li>
             </ul>
         </div>
     )
